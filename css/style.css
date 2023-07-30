@@ -1,0 +1,348 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+/* all common css here  */
+html {
+    scroll-behavior: smooth;
+}
+ul,ol {
+    list-style-type: none;
+}
+/* nav bar start here  */
+
+/* banner part start  */
+.banner-part {
+    padding: 100px 0;
+    background-image: url(../images/banner-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner-img-part {
+	margin-top: -110px;
+}
+.banner-image img {
+    width: 221px;
+}
+/* about part start  */
+.about-part {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+.about-text h2 {
+    position: relative;
+    margin-bottom: 50px;
+}
+.about-text h2::after {
+    position: absolute;
+    top: 50px;
+    left: 4px;
+    background-color: black;
+    content: "";
+    height: 1px;
+    width: 130px;
+}
+.about-btn button:hover {
+    background-color: black;
+    color: #ffffff;
+}
+/* service part start  */
+.service-part {
+    padding-bottom: 20px;
+}
+ .service-head h2 {
+    position: relative;
+}
+.service-head h2::after {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    background-color: black;
+    content: "";
+    height: 1px;
+    width: 145px;
+    transform: translateX(-50%);
+}
+.service-text {
+    background-color: #f1f1f1;
+    padding: 15px;
+    transition: .4s;
+    position: relative;
+    border: 1px solid #f1f1f1;
+}
+.service-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #dad4d4;
+    transition: .4s;
+}
+.cona {
+    width: 15px;
+    height: 15px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    rotate: 45deg;
+    transition: .4s;
+    margin-top: -2px;
+    border: 1px solid #f1f1f1;
+}
+.service-item:hover .service-icon {
+    border: 1px solid black;
+}
+.service-item:hover .service-text {
+    border: 1px solid rgb(205, 196, 196);
+}
+.service-item:hover .service-text .cona {
+    border-left: 1px solid rgb(205, 196, 196);
+    border-top: 1px solid rgb(205, 196, 196);
+}
+/* quali part start  */
+.quali-part {
+    padding: 50px 0;
+    background: #ffffff;
+}
+.quali-head h2 {
+    position: relative;
+}
+.quali-head h2::after {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    background-color: black;
+    content: "";
+    height: 1px;
+    width: 350px;
+    transform: translateX(-50%);
+}
+.year {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.quali-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    transition: .4s;
+    position: relative;
+    border: 1px solid #f1f1f1;
+}
+.cona-two {
+    width: 15px;
+    height: 15px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    rotate: 45deg;
+    transition: .4s;
+    margin-right: -2px;
+    border: 1px solid #f1f1f1;
+}
+.cona-three {
+    width: 15px;
+    height: 15px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    transform: translateY(-50%);
+    rotate: 45deg;
+    transition: .4s;
+    border: 1px solid #f1f1f1;
+}
+/* portfolio part start  */
+#portfolio-part {
+    padding: 50px 0;
+}
+.portfolio-img {
+    margin-bottom: 30px;
+}
+.portfolio-btn button:hover {
+    background: #000;
+    color: #ffffff;
+}
+/* test part start  */
+.test-part {
+    padding: 50px 0;
+}
+.test-text {
+    background-color: #f1f1f1;
+}
+.test-text i {
+    color: yellow;
+}
+.pic {
+	top: -15px;
+	left: -33px;
+}
+/* skills part stART  */
+.skill-part {
+    padding: 50px 0;
+}
+.video-part {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.overlys {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.play-btn,h3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+/* plan part start  */
+.plan-part {
+    padding: 50px 0;
+}
+.plan {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+.plan button:hover {
+    background: #000;
+    color: #ffffff;
+}
+/* contact part start  */
+.contact-part {
+    background-color: #444444;
+    padding: 30px 0;
+    color: #ffffff;
+}
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: black;
+}
+.back_to_top i {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: aquamarine;
+}
+
+.my_stick_bg {
+    background: rgb(219, 222, 222);
+    animation: alamin 1s;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+
+    /* responsive part start here   */
+    /* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+ .navbar-nav {
+    text-align: center;
+ }
+.about-btn {
+    text-align: center;
+}
+.service-text {
+    margin-bottom: 20px;
+}
+.portfolio-btn button {
+    margin: 5px 0;
+    font-size: 12px;
+}
+.test-text {
+    margin-bottom: 30px;
+}
+.plan {
+    margin-bottom: 20px;
+}
+.contact-text {
+    margin-bottom: 30px;
+}
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+     }
+    .about-btn {
+        text-align: center;
+    }
+    .service-text {
+        margin-bottom: 20px;
+    }
+    .portfolio-btn button {
+        margin: 5px 0;
+        font-size: 15px;
+    }
+    .test-text {
+        margin-bottom: 30px;
+    }
+    .plan {
+        margin-bottom: 20px;
+    }
+    .contact-text {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+     }
+    .about-btn {
+        text-align: center;
+    }
+    .service-text {
+        margin-bottom: 20px;
+    }
+    .test-text {
+        margin-bottom: 30px;
+    }
+    .plan {
+        margin-bottom: 20px;
+    }
+    .contact-text {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .portfolio-btn button {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+    /* responsive part ends here  */
+    
